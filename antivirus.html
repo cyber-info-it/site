@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title id="titolo">Antivirus</title>
+    
+</head>
+<body onload="typeWriter()">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="malware.html">Malware</a></li>
+                <li class="active"><a href="antivirus.html">Antivirus</a></li>
+                <li><a href="hackers.html">Hackers</a></li>
+                <li><a href="best.html">Best Practices</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="title">
+            <h2 id="demo"></h2>
+            <div class="scroll-left" style="margin-left: 210px;">
+                <p>01000001 01101110 01110100 01101001 01110110 01101001 01110010 01110101 01110011</p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="sidenav">
+                <a href="#definizione">Definizione</a>
+                <button class="dropdown-btn">Funzionalità
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-container">
+                    <a href="#1">Scansione del sistema</a>
+                    <a href="#2">Protezione in tempo reale</a>
+                    <a href="#3">Rilevamento dei comportamenti</a>
+                    <a href="#4">Database di definizioni</a>
+                    <a href="#5">Quarantena</a>
+                    <a href="#6">Firewall</a>
+                    <a href="#7">Protezione della navigazione web</a>
+                  </div>
+                <a href="#storia">Storia</a>
+            </div>
+            <div id="definizione" class="content">
+                <h3 class="content-title">Cosa è un antivirus?</h3>
+                <p>Un antivirus è un programma progettato per proteggere i dispositivi informatici da una vasta gamma di minacce online, come virus, worm, trojan, spyware e altro ancora. <br><br> Utilizza algoritmi e database di riconoscimento per individuare e rimuovere queste minacce, monitorando costantemente l'attività del sistema e analizzando i file in entrata e in uscita per identificare comportamenti sospetti. <br><br> Inoltre, può includere funzionalità aggiuntive come firewall, protezione della privacy e strumenti di ottimizzazione del sistema per garantire una protezione completa e una migliore performance del dispositivo. <br><br> Alcune di queste includono:</p>
+            </div>
+            <div id="funzionalità" class="content">
+                <h4 class="sub-title" id="1"><i>Scansione del sistema</i></h4>
+                <p>L'antivirus esegue scansioni periodiche del sistema per individuare e rimuovere eventuali minacce presenti nei file, nelle cartelle e nella memoria del computer.</p> 
+                <h4 class="sub-title" id="2"><i>Protezione in tempo reale</i></h4>
+                <p>Monitora costantemente l'attività del sistema in background e blocca immediatamente qualsiasi attività sospetta o minacciosa.</p>
+                <h4 class="sub-title" id="3"><i>Rilevamento dei comportamenti</i></h4>
+                <p>Utilizza algoritmi avanzati per identificare pattern comportamentali sospetti, come ad esempio attività di rete anomale o modifiche non autorizzate ai file di sistema.</p>
+                <h4 class="sub-title" id="4"><i>Database di definizioni</i></h4>
+                <p>Aggiorna regolarmente il suo database di definizioni delle minacce per riconoscere le ultime varianti di malware.</p>
+                <h4 class="sub-title" id="5"><i>Quarantena</i></h4>
+                <p>Isola i file potenzialmente dannosi dal sistema operativo e li invia al Laboratorio delle Minacce per ulteriori analisi.</p>
+                <h4 class="sub-title" id="6"><i>Firewall</i></h4>
+                <p>Alcuni antivirus includono un firewall integrato per monitorare e gestire il traffico di rete in entrata e in uscita, proteggendo così il sistema da intrusioni esterne.</p>
+                <h4 class="sub-title" id="7"><i>Protezione della navigazione web</i></h4>
+                <p>Controlla e filtra i siti web in tempo reale per prevenire l'accesso a siti dannosi o compromessi.</p>
+            </div>
+            <div id="storia" class="content">
+                <h3 class="sub-title">Storia</h3>
+                <p>I primi antivirus eseguivano un controllo sostanzialmente “meccanico” basato sul controllo della firma dei virus (si definiscono appunto “signature-based”).
+ 
+                    La “signature” (firma) viene generata attraverso un algoritmo di hash e, per la sua univocità, è paragonabile ad un’impronta digitale che individua in modo univoco un file. Si parla infatti di fingerprint.
+                     
+                    Con questo funzionamento erano in grado di rilevare i virus noti, perché già presenti nel loro database delle definizioni dei virus, ma non potevano intercettare i nuovi attacchi, perché non ancora classificati.</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
